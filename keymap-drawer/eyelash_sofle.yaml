@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  Layer 0:
+  Base:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -58,14 +58,14 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Layer 3
+  - Gaming
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Layer 2
-  - Layer 1
+  - Nav
+  - Symbols
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  Layer 1:
+  Symbols:
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 2:
+  Nav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Layer 3:
+  Gaming:
   - F12
   - F1
   - F2
